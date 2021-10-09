@@ -1,0 +1,21 @@
+{
+  "name": "nodejs-lab-21",
+  "version": "0.0.0",
+  "description": "tasks for nodejs lectures",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mellyssy/node-js-21.git"
+  },
+  "author": "mellyssy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mellyssy/node-js-21/issues"
+  },
+  "homepage": "https://github.com/mellyssy/node-js-21#readme"
+}
