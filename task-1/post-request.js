@@ -20,7 +20,7 @@ const req = http.request(options, (res) => {
   console.log(`status code: ${res.statusCode}`);
   res.setEncoding('utf8');
   res.on('data', chunk => console.log(`body: ${chunk}`));
-  res.on('end', () => console.log('This is the end'));
+  res.on('end', () => console.log('In Arcadia, Arcadia'));
 })
 
 req.on('error', (e) => console.error());
